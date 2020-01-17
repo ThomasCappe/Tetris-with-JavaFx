@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="745.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+
+      <AnchorPane fx:id="tabPrinc" maxHeight="-1.0" maxWidth="-1.0" prefHeight="784.0" prefWidth="704.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="754.0" fitWidth="704.0" layoutX="-4.0" layoutY="-5.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../../Ressources/anfal-shamsudeen-Sf8g7a3duRY-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="50.0" layoutX="447.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" AnchorPane.rightAnchor="53.0" />
+            <Label layoutX="506.0" layoutY="79.0" prefHeight="43.0" prefWidth="90.0" text="Score" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="score" alignment="CENTER" layoutX="450.0" layoutY="130.0" prefHeight="86.0" prefWidth="200.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="70.0" />
+               </font>
+            </Label>
+            <Rectangle fill="WHITE" height="700.0" layoutX="25.0" layoutY="25.0" opacity="0.59" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
+            <Rectangle arcWidth="5.0" fill="DODGERBLUE" height="72.0" layoutX="464.0" layoutY="591.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="236.0" />
+            <Polygon fill="DODGERBLUE" layoutX="447.0" layoutY="609.0" points="-8.822601318359375, -18.0, 17.0, 53.44189453125, 17.0, -18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Label layoutX="484.0" layoutY="610.0" text="Mode marathon" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="tab" layoutX="25.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="350.0" />
+            <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#ffffff4b" height="268.0" layoutX="449.0" layoutY="241.0" stroke="TRANSPARENT" strokeType="INSIDE" width="217.0" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="55.0" layoutX="531.0" layoutY="365.0" stroke="#d3d1d1db" strokeType="INSIDE" strokeWidth="5.0" width="53.0" />
+            <Text layoutX="550.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Z">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="55.0" layoutX="531.0" layoutY="428.0" stroke="#d3d1d1db" strokeType="INSIDE" strokeWidth="5.0" width="53.0" />
+            <Text layoutX="550.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="55.0" layoutX="470.0" layoutY="429.0" stroke="#d3d1d1db" strokeType="INSIDE" strokeWidth="5.0" width="53.0" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="55.0" layoutX="592.0" layoutY="428.0" stroke="#d3d1d1db" strokeType="INSIDE" strokeWidth="5.0" width="53.0" />
+            <Text layoutX="488.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Q">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Text layoutX="611.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="479.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comment jouer ? " textAlignment="CENTER" wrappingWidth="166.760389307203">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="458.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilisez les touches claviers ci-dessous." textAlignment="CENTER" wrappingWidth="196.77725938249955">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+   </children>
+</VBox>
